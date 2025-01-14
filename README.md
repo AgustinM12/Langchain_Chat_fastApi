@@ -1,0 +1,1 @@
+pip install pypdfium2 chromadb
