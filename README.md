@@ -38,5 +38,5 @@ uvicorn main:app --reload
 ## Notas importantes
 - Debe tener instalado ollama en su PC.
 - Por defecto la app usa el modelo de "llama3.1", por lo que debera descargarlo tambien con el comando 'ollama pull llam3.1'.
-- Asegurese de tener ollama corriendo en su PC, use el comando 'ollama serve' y puede verificarlo entrando a <http://localhost://11434.com>.
+- Asegurese de tener ollama corriendo en su PC, use el comando 'ollama serve' y puede verificarlo entrando a <http://localhost:11434>.
 - para usar otro pdf diferente debe modificar el archivo que se encuentra en el directorio 'helpers/pdf.py', modifique la linea 6 donde se esta importando el archivo. 
