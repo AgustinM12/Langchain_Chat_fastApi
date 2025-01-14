@@ -3,7 +3,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.schema import Document
 
 # Cargar el PDF usando PyPDFium2Loader
-loader = PyPDFium2Loader("Batman_Hush.pdf")
+loader = PyPDFium2Loader("../pdfs/Batman_Hush.pdf")
 paginas = loader.load()
 
 # Preprocesamiento de texto para limpiar y estructurar mejor los fragmentos
